@@ -1,3 +1,76 @@
-body {
+.blockQuote {
+    align-items: center;
+    background-color: mistyrose;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+
+.blockQuote h3 {
+    padding-left: 30px;
+    border-left: dimgray solid 2px;
+    font-style: italic;
+    font-weight: 400;
+    width: 60%;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: slateblue;
+    border-color: slateblue;
+}
+
+.btn-primary {
     background-color: mediumslateblue;
+    border-color: mediumslateblue;
+}
+
+.card {
+    width: 45% !important;
+    margin: 20px;
+}
+
+.card-body {
+    border-top: mediumslateblue solid 1px;
+}
+
+.footer{
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+}
+
+.jumbotron {
+    background-image: url("../imgs/cacti.jpg");
+    background-size: 100% auto;
+    display: flex;
+    height: 85vh;
+    align-items: center;
+}
+
+.portfolioCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px 15%;
+    text-align: center;
+}
+
+.portfolioPieces {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.skills {
+    margin: 0 15%;
+}
+
+.navbar ul {
+    margin-left: auto;
+    margin-right: 0 !important;
 }
