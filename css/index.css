@@ -38,10 +38,24 @@
     border-top: mediumslateblue solid 1px;
 }
 
+.copyright {
+    text-align: right;
+    width: 50%;
+}
+
 .footer{
+    align-items: center;
     background-color: lightgray;
+    display: flex;
     height: 50px;
     width: 100%;
+}
+
+.footerCont {
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    width: 80%;
 }
 
 .jumbotron {
@@ -67,7 +81,20 @@
 }
 
 .skills {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin: 0 15%;
+    padding: 40px 0;
+}
+
+.socials {
+    width: 50%;
+}
+
+.socials img {
+    height: 25px;
+    margin: 0 5px;
 }
 
 .navbar ul {
